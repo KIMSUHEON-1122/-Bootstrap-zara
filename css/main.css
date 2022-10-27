@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    overflow: hidden;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: content-box;
+    overflow-y: scroll;
+    width: 117vw;
+    padding-right: 17px;
+}
+
+/* main */
+h1{
+    z-index: 1;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 10vw;
+    letter-spacing: -25px;
+    font-weight: 600;
+    position: fixed;
+    left: 50px;
+}
+.offcanvas.offcanvas-start{
+    width: 600px;
+    padding: 40px;
+}
+.navbar-toggler{
+    border : none;
+}
+.navbar-toggler:hover{
+    /* border: none; */
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.menu_h1{
+    left: 100px;
+    z-index: -1;
+    font-size: 70px;
+}
+.menu_nav{
+    flex-direction: row;
+    gap: 30px;
+}
+.tabul{
+    margin-top: 50px;
+}
+.tabul li{
+    margin-bottom: 20px;
+}
+.woman_slide div, .man_slide div, .kids_slide div, .beauty_slide div, .zara_main_slide{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-control-prev{
+    z-index: 100;
+}
+.carousel-control-next-icon{
+    position: fixed;
+    z-index: 999999;
+    background-image: url(../img/chevron-right-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    top: 50%;
+    right: 2%;
+}
+.carousel-control-prev-icon{
+    position: fixed;
+    z-index: 999999;
+    background-image: url(../img/chevron-left-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    top: 50%;
+    left: 2%;
+}
+.woman_img_wrap1{
+    background: url(../img/zaramainslide1.jpg);
+    background-position: center;
+}
+.woman_img_wrap2{
+    background: url(../img/zaramainslide2.jpg);
+    background-position: 20% 50%;
+}
+.woman_img_wrap3{
+    background: url(../img/zaramainslide3.jpg);
+    background-position: 10% 50%;
+}
+.woman_img_wrap4{
+    background: url(../img/zaramainslide4.jpg);
+    background-position: 10% 50%;
+}
+.woman_img_wrap5{
+    background: url(../img/zaramainslide5.jpg);
+    background-position: center;
+}
+.woman_img_wrap6{
+    background: url(../img/zaramainslide6.jpg);
+    background-position: center;
+}
+.woman_img_wrap7{
+    background: url(../img/zaramainslide7.jpg);
+    background-position: center;
+}
+.man_img_wrap1{
+    background: url(../img/zaramanslide1.jpg);
+    background-position: 25% 50%;
+
+}
+.man_img_wrap2{
+    background: url(../img/zaramanslide2.jpg);
+    background-position: center;
+
+}
+.man_img_wrap3{
+    background: url(../img/zaramanslide3.jpg);
+    background-position: center;
+
+}
+
+.kids_img_wrap1{
+    background: url(../img/zarakidsslide1.jpg);
+    background-position: center;
+
+}
+.kids_img_wrap2{
+    background: url(../img/zarakidsslide2.jpg);
+    background-position: 60% 50%;
+
+}
+.kids_img_wrap3{
+    background: url(../img/zarakidsslide3.jpg);
+    background-position: center;
+    
+}
+.kids_img_wrap4{
+    background: url(../img/zarakidsslide4.jpg);
+    background-position: center;
+    
+}
+.kids_img_wrap5{
+    background: url(../img/zarakidsslide5.jpg);
+    background-position: center;
+    
+}
+.kids_img_wrap6{
+    background: url(../img/zarakidsslide6.jpg);
+    background-position: center;
+    
+}
+.kids_img_wrap7{
+    background: url(../img/zarakidsslide7.jpg);
+    background-position: 30%;
+    
+}
+.kids_img_wrap8{
+    background: url(../img/zarakidsslide8.jpg);
+    background-position: 65%;
+    
+}
+.beauty_img_wrap{
+    background: url(../img/zarabeautyslide1.jpg);
+    background-position: 25% 50%;
+}
+.main_nav{
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    bottom: 30px;
+}
+.bg-light{
+    --bs-bg-opacity : 0;
+}
+.navbar-collapse{
+    justify-content: center;
+}
+.navbar-nav{
+    width: 80%;
+    justify-content: space-between;
+}
+/* footer */
+.zara_main_slide{
+    display :flex;
+    flex-direction :column;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.newletter{
+    font-size: 30px;
+    text-align: center;
+}
+.sns{
+    width: 50%;
+    height: 30px !important;
+    text-align: center;
+    margin: 130px 0;
+}
+.footer_footer{
+    width: 70% !important;
+    height: 100px !important;
+}
